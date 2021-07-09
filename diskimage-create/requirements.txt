@@ -1,3 +1,4 @@
 diskimage-builder>=2.24.0
 PyYAML
 six>=1.9.0
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
