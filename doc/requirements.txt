@@ -24,3 +24,4 @@ pydot>=1.2.4 # MIT License
 pydotplus>=2.0.2 # MIT License
 pyparsing>=2.1.0 # MIT
 networkx>=1.10 # BSD
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
