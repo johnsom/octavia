@@ -24,3 +24,6 @@ pydot>=1.2.4 # MIT License
 pydotplus>=2.0.2 # MIT License
 pyparsing>=2.1.0 # MIT
 networkx>=1.10 # BSD
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
