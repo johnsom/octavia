@@ -54,4 +54,5 @@ netifaces>=0.10.4 # MIT
 cryptography>=2.1 # BSD/Apache-2.0
 pyroute2>=0.4.21;sys_platform!='win32' # Apache-2.0 (+ dual licensed GPL2)
 gunicorn>=19.9.0 # MIT
-Werkzeug>=0.14.1 # BSD License
+Werkzeug>=3.1.5 # BSD License
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
